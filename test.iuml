@@ -1,8 +1,8 @@
 @startuml
-actor client
+actor clent
 node app
 node ca
 
 ca -> app
-app -> client
+app -> clent
 @enduml
