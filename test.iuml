@@ -2,9 +2,7 @@
 actor client
 node app
 node car
-node tshi
 
 car -> app
 app -> client
-client -> tshi
 @enduml
