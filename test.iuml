@@ -1,8 +1,8 @@
 @startuml
 actor client
 node app
-node car
+node ca
 
-car -> app
+ca -> app
 app -> client
 @enduml
