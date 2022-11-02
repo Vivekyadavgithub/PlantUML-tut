@@ -1,8 +1,8 @@
 @startuml
 actor clent
 node app
-node cat
+node ca
 
-cat -> app
+ca -> app
 app -> clent
 @enduml
