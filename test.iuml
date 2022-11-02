@@ -2,9 +2,9 @@
 actor clent
 node app
 node ca
-node road
+
 
 ca -> app
 app -> clent
-clent -> road
+
 @enduml
