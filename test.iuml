@@ -1,10 +1,10 @@
 @startuml
-actor clent
+actor client
 node app
 node ca
 
 
 ca -> app
-app -> clent
+app -> client
 
 @enduml
